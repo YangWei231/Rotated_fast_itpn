@@ -18,7 +18,7 @@ pip install -v -e .
 cd ..
 # mmdet=3.0.0rc6
 pip install mmdet==3.0.0rc6
-# mv rotated_fast_itpn_files
+# move rotated_fast_itpn_files to mmrotate-1x
 git clone https://github.com/YangWei231/Rotated_fast_itpn.git
 cp -r Rotated_fast_itpn/* ./
 pip install -r requirements.txt
@@ -42,3 +42,6 @@ bash tools/dist_train.py configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fa
 # fast_tipn_tiny
 bash tools/dist_train.sh configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fast_itpn_tiny_1x_dota_0224.py-ms 4
 ```
+
+
+
