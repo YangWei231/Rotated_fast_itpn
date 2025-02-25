@@ -33,7 +33,7 @@ bash tools/dist_train.py configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fa
 # fast_tipn_tiny
 bash tools/dist_train.sh configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fast_itpn_tiny_1x_dota_0224.py 4
 ```
-dotav1-ss
+dotav1-ms
 ```bash
 # fast_itpn_base
 bash tools/dist_train.sh configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fast_itpn_base_1x_dota_0224-ms.py 4
@@ -43,5 +43,7 @@ bash tools/dist_train.py configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fa
 bash tools/dist_train.sh configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_fast_itpn_tiny_1x_dota_0224.py-ms 4
 ```
 
+# 参考
 
+iTPN: https://github.com/sunsmarterjie/iTPN
 
